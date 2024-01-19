@@ -1,0 +1,15 @@
+html {
+  font-size: 2em;
+}
+main {
+  border: 5px solid blue;
+  width: 50%;
+}
+
+h1 {
+  font-size: 3rem;
+}
+section {
+  border: 5px dashed green;
+  width: 50%;
+}
