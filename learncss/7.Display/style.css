@@ -1,0 +1,41 @@
+* {
+  /* border: 1px solid blue; */
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+h1 {
+  display: block;
+}
+
+p {
+  display: inline;
+}
+
+span {
+  display: inline-block;
+}
+
+a {
+  display: none;
+}
+img {
+  width: 100px;
+}
+ul {
+  list-style: none;
+  text-align: end;
+  padding: 40px;
+  margin: 20px;
+  background-color: aqua;
+  color: crimson;
+  font-size: 20px;
+}
+li {
+  display: inline;
+  padding: 10px;
+}
+li:hover {
+  color: black;
+  cursor: pointer;
+}
