@@ -6,10 +6,10 @@
   border: 2px solid red;
   display: flex;
   /* flex-direction: row;
-  flex-wrap: wrap-reverse; */
+    flex-wrap: wrap-reverse; */
   gap: 10px;
   /* column-gap: 10px; */
-  flex-flow: wrap row;
+  flex-flow: row;
   /* justify-content: space-evenly; */
   justify-content: center;
   align-items: center;
@@ -19,4 +19,16 @@
   border: 2px solid green;
   /* margin: 10px; */
   width: 100px;
+}
+#box-1 {
+  /* order: 1;
+  flex-grow: 1;
+  flex-shrink: 2; */
+}
+#box-3 {
+  /* order: 2; */
+  /* flex-grow: 2; */
+}
+#box-4 {
+  /* flex-shrink: 4; */
 }
